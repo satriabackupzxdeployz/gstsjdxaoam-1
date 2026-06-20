@@ -1,7 +1,7 @@
 const axios = require("axios");
 
-const BOT_TOKEN = process.env.BOT_TOKEN || "8699935852:AAF9U1URzx--a_pFF-DT5EftbW-qXYZByQU";
-const API_KEY = process.env.THERESAV_APIKEY || "liwsat";
+const BOT_TOKEN = process.env.BOT_TOKEN || "secret";
+const API_KEY = process.env.THERESAV_APIKEY || "secret";
 
 const API_URL = `https://api.telegram.org/bot${BOT_TOKEN}`;
 
